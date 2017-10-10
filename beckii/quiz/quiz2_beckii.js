@@ -14,7 +14,7 @@ var greet = "hi alex"; //can do truthy or falsey value, since result will end up
 var hello = (greet ? 8 : 2); //output is true value regardless
 var goodbye = !0;
 
-var x = (hello && goodbye); //goodbye= bang a true value
+var x = (hello && goodbye); //goodbye= bang a false value
 x; // true
 
 /* ------------------- */
