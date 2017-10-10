@@ -37,7 +37,7 @@ var z = {
 };
 
 var y;     // y is already declared as a variable here, although undefined
-y = z.b - z.a.val;    //y is undefined, here you reassign value to y, y has to be 8 since x is 8 (see below)
+y = z.b - z.a.val;    //y is undefined, here you reassign value to y, y has to be 8 since x = y (see below)
                       //you can simply reassign y to 8 (simple answer) -- do not get fooled by the object for Z (produce complex answer) 
 
 x = y;
