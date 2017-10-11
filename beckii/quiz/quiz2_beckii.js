@@ -23,7 +23,7 @@ var apple = (19 || 19);
 var lime = ("hi alex" && 8);
 var orange = (apple - lime); // 19-8= 11
 
-x = orange;
+var x = orange;
 
 x; // 11
 
@@ -40,7 +40,7 @@ var y;     // y is already declared as a variable here, although undefined
 y = z.b - z.a.val;    //y is undefined, here you reassign value to y, y has to be 8 since x is 8 (see below)
                       //you can simply reassign y to 8 (simple answer) -- do not get fooled by the object for Z (produce complex answer) 
 
-x = y;
+var x = y;
 x; // 8
 
 /* ------------------- */

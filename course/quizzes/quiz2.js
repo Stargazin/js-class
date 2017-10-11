@@ -22,7 +22,7 @@ var apple = (?? || 19);
 var lime = (?? && 8);
 var orange = (apple - lime);
 
-x = orange;
+var x = orange;
 
 x; // 11
 
@@ -38,7 +38,7 @@ var z = {
 var y;
 y = ??
 
-x = y;
+var x = y;
 x; // 8
 
 /* ------------------- */
